@@ -24,3 +24,7 @@ Se tuvo que refactorizar usando una nueva función con un regex que engloba toda
 Para el ejercicio de los exchange rates tuve que hacer un par de refactors y cambios al código original de O'Reilly y jugar con las propiedades CSS desde script.js (para hacer el hidden del texto de espera).
 También tuve que refrescar e investigar para el manejo de errores, pero no hubo nada especialmente díficil.
 Que los números fueran positivos fue fácil.
+
+Para el último ejercicio tuve muchas dificultades al principio para saber que llamada hacer o como gestionar el cambio de moneda, pero decidí que se haria la llamada usando dolares y luego se aplicaria la conversión a la moneda correspondiente
+Mi otra gran dificultad fue gestionar el desplegable, ya que select no permite mucha modificación, asi que dedidí obtener todo el texto, cambiarlo por el precio y la moneda que tocaba y luego volver a cambiar el innerText de cada pelicula.
+Los últimos detalles como el total o el añadir la moneda tras el total no fueron muy complicados una vez se solventaron los anteriores 2 problemas.
