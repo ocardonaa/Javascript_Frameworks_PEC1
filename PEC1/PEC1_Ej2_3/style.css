@@ -110,6 +110,10 @@ p.text span {
     color: #6feaf6;
 }
 
+p.text span.currency-total {
+    color: white;
+}
+
 p.text {
     margin: 5px 0;
 }

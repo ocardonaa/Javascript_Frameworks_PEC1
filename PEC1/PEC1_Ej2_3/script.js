@@ -4,6 +4,7 @@ const count = document.getElementById('count');
 const total = document.getElementById('total');
 const movieSelect = document.getElementById('movie');
 const currencyElement = document.getElementById('currency');
+const currencyNameTotal = document.getElementById('currency-total');
 
 let originalPrices = [];
 
@@ -47,6 +48,7 @@ function calculateTicketPricing() {
             });
             const auxTotal = (count.innerText * movieSelect.value).toFixed(2);
             total.innerText = auxTotal;
+            currencyNameTotal.innerText = currency;
         });
 }
 
